@@ -1,0 +1,161 @@
+!SESSION 2016-10-06 12:44:15.795 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.di 2 0 2016-10-06 12:44:17.310
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_0.10.1.v20120523-1955 [1941]
+]
+Component2: Component[
+	name = org.eclipse.e4.ui.di.events
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.e4.ui.internal.di.UIEventObjectSupplier
+	state = Unsatisfied
+	properties = {dependency.injection.annotation=org.eclipse.e4.ui.di.UIEventTopic}
+	serviceFactory = false
+	serviceInterface = [org.eclipse.e4.core.di.suppliers.ExtendedObjectSupplier]
+	references = null
+	located in bundle = org.eclipse.e4.ui.di_1.0.0.v20130515-1857 [568]
+]  
+
+!ENTRY org.eclipse.equinox.event 2 0 2016-10-06 12:44:17.313
+!MESSAGE [SCR] Found components with duplicated names! Details: 
+Component1 : Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.2.200.v20120522-2049 [1943]
+]
+Component2: Component[
+	name = org.eclipse.equinox.event
+	activate = activate
+	deactivate = deactivate
+	modified = 
+	configuration-policy = optional
+	factory = null
+	autoenable = true
+	immediate = false
+	implementation = org.eclipse.equinox.internal.event.EventComponent
+	state = Unsatisfied
+	properties = 
+	serviceFactory = false
+	serviceInterface = [org.osgi.service.event.EventAdmin]
+	references = null
+	located in bundle = org.eclipse.equinox.event_1.3.0.v20130327-1442 [636]
+]  
+
+!ENTRY org.eclipse.jface 2 0 2016-10-06 12:44:22.086
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-10-06 12:44:22.087
+!MESSAGE A conflict occurred for CTRL+F9:
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.activateTask,激活任务,
+		,
+		Category(org.eclipse.ui.category.navigate,导航,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@24920dde,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F9,
+	ParameterizedCommand(Command(RunSQLAction,Run SQL,
+		Run SQL,
+		Category(org.eclipse.ui.category.edit,编辑,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70cc7c93,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-10-06 12:44:27.646
+!MESSAGE Unable to update index for central|http://repo.maven.apache.org/maven2
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-10-06 12:44:29.107
+!MESSAGE Attempt to redefine project facet action "jpt.jpa.install" in plugin org.eclipse.jpt.jpa.core.
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:30.403
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:30.511
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:30.534
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:30.562
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:30.588
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:30.615
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:30.668
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:31.216
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:31.265
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:31.300
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2016-10-06 12:44:31.331
+!MESSAGE Installed snippet library: D:\MyEclipse\configuration\org.eclipse.osgi\bundles\147\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-10-06 12:44:33.667
+!MESSAGE Result of converting legacy STS 2.x workspace preferences to 3.x
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-10-06 12:44:33.667
+!MESSAGE Converted legacy STS plugin preferences
+!SUBENTRY 1 unknown 0 0 2016-10-06 12:44:33.667
+!MESSAGE OK
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-10-06 12:44:33.667
+!MESSAGE Converted legacy Roo plugin state locations
+!SUBENTRY 1 org.springsource.ide.eclipse.commons.frameworks.core 0 0 2016-10-06 12:44:33.667
+!MESSAGE Converted legacy STS plugin state locations
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-10-06 12:45:52.906
+!MESSAGE An internal error occurred during: "Importing MyEclipse dependencies to Local Maven Repository".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.MavenPlugin.getMaven(MavenPlugin.java:42)
+	at com.genuitec.eclipse.maven.core.RepositoryUtil.importJarToLocalRepository(RepositoryUtil.java:71)
+	at com.genuitec.eclipse.maven.core.RepositoryUtil.addDependency(RepositoryUtil.java:31)
+	at com.genuitec.eclipse.maven.core.LocalMavenRepositoryImportsJob.run(LocalMavenRepositoryImportsJob.java:46)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
